@@ -286,7 +286,7 @@ def build_main_screen():
 
     # Load background image (Estonian flag)
 
-    bg_image = tk.PhotoImage(file=image_dir+"/estonian_flag.png")
+    bg_image = tk.PhotoImage(file=image_dir+"/estonian_flag_medium.png")
     bg_label = tk.Label(root, image=bg_image)
     bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
