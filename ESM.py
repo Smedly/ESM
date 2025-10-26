@@ -267,6 +267,9 @@ def shutdown_pi():
     # During testing, replace above with:
     # print("Shutdown pressed (disabled for testing)")
 
+def exit_esm():
+    exit()
+
 #end new section 1
 
 #start new section 2
@@ -377,7 +380,10 @@ def build_menu_screen():
 
     shutdown_btn = tk.Button(root, text="Shutdown", command=shutdown_pi, **btn_style)
     shutdown_btn.pack(pady=10)
-
+    
+    shutdown_btn = tk.Button(root, text="Quit", command=exit_esm, **btn_style)
+    shutdown_btn.pack(pady=10)
+    
     back_btn = tk.Button(root, text="Back", command=show_main_screen, **btn_style)
     back_btn.pack(pady=10)
 
