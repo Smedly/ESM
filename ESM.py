@@ -320,12 +320,12 @@ def build_main_screen():
     # Button style
 
     button_style = {
-        "font": ("Arial", 14, "bold"),
+        "font": ("Arial", 18, "bold"),
         "fg": "white",
         "bg": "black",
         "relief": "raised",
         "bd": 4,
-        "width": 10,
+        "width": 14,
         "height": 2
     }
 
